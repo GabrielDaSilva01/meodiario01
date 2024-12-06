@@ -260,7 +260,38 @@
             text-align: left;
         }
 
-       
+        /* Título do diário */
+        h1 {
+            font-size: 2.5em;
+            color: #4a90e2;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        /* Subtítulo para cada entrada */
+        h2 {
+            color: #4a90e2;
+            font-size: 1.8em;
+            margin-top: 30px;
+        }
+
+        /* Estilo para cada entrada de diário */
+        .entrada {
+            background-color: #fafafa;
+            border-left: 5px solid #4a90e2;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05);
+        }
+
+        .entrada p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            color: #555;
+        }
+
+
  
     
 </div>
@@ -268,4 +299,105 @@
 </body>
 </html>
 
+</html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Mundo - Diário</title>
+  <style>
+    /* Estilos Gerais */
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f9; /* Fundo claro */
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    /* Container principal do diário */
+    .diario-container {
+      background-color: #ffffff; /* Fundo branco para o diário */
+      width: 90%;
+      max-width: 900px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 30px;
+      margin-top: 30px;
+    }
+
+    /* Título principal */
+    h1 {
+      font-size: 2.5em;
+      text-align: center;
+      color: #333;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 10px;
+    }
+
+    /* Texto do diário */
+    .texto-diario {
+      font-size: 1.2em;
+      line-height: 1.6;
+      color: #555;
+      margin-top: 20px;
+    }
+
+    .texto-diario span {
+      font-weight: bold;
+      color: #0066cc;
+    }
+
+    /* Citação para um toque especial */
+    blockquote {
+      font-size: 1.3em;
+      color: #777;
+      font-style: italic;
+      margin: 20px 0;
+      padding-left: 20px;
+      border-left: 5px solid #0066cc;
+    }
+
+    /* Assinatura do autor (opcional) */
+    .autor {
+      text-align: right;
+      font-style: italic;
+      color: #777;
+      margin-top: 40px;
+    </style>
+</head>
+<body>
+
+  <div class="diario-container">
+    <h1>Meu Mundo</h1>
+
+    <div class="texto-diario">
+      <p>Hoje, como todos os dias, me encontrei imerso no meu mundo. Um lugar onde os pensamentos se entrelaçam como fios invisíveis, onde as ideias nascem e morrem antes mesmo de serem percebidas.</p>
+
+      <p>É estranho, mas, por vezes, sinto que estou em dois mundos ao mesmo tempo. <span>O real</span>, com seus desafios diários, e <span>o mundo interno</span>, que é ainda mais vasto, misterioso e sem limites.</p>
+
+      <p>Às vezes, as fronteiras entre esses dois mundos ficam turvas. Eu me pego pensando em algo e, quando dou por mim, já estou em um lugar completamente diferente, em uma paisagem mental onde as regras são outras. Não sei se sou o único que passa por isso.</p>
+
+      <blockquote>"O mundo que criamos dentro de nós é mais real do que o mundo que vemos ao nosso redor." - Desconhecido</blockquote>
+
+      <p>A vida no meu mundo é silenciosa, mas ao mesmo tempo cheia de ruídos que ninguém mais pode ouvir. São sons que vêm de <span>lugares profundos</span>, talvez da alma, ou talvez do subconsciente. Um <span>eco constante</span> de emoções, pensamentos e memórias que permanecem guardados no silêncio do meu ser.</p>
+
+      <p>Em algum lugar, sei que existe uma resposta para todas as perguntas. Eu apenas preciso aprender a ouvir com mais atenção, a entender as mensagens que o meu mundo interno tenta me dar.</p>
+
+      <p>Será que algum dia, finalmente, descobrirei a chave que une esses dois mundos? Ou eles continuarão a existir, paralelos, sem jamais se encontrarem?</p>
+    </div>
+
+    <div class="autor">
+      <p>Assinado, <span>Eu</span></p>
+    </div>
+  </div>
+
+</body>
 </html>
